@@ -28,7 +28,8 @@ mat3 TMP = P * Q;
 mat3 M = N * TMP;
 ```
 
-#### Shorthand ivec and bvec initializers (the converter cannot tell whether the argument is a scalar or another vec).
+#### Shorthand ivec and bvec initializers
+The converter cannot tell whether argument is a scalar or another vec
 ```glsl
 bvec2 bv = bvec2(b);
 ivec2 iv = ivec2(i);
