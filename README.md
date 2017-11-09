@@ -4,7 +4,7 @@
 
 2. Copy the shader source and save as a textfile (shadername.txt) somewhere in your Unity project. Unity will create a text asset for you.
 
-3. Add the Toy component to your camera.
+3. Add the Toy component to your Camera.
 
 4. Drag & Drop the Shadertoy text asset into the Shadertoy Text property in the Toy component inspector.
 
