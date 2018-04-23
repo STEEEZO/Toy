@@ -39,3 +39,12 @@ replace with
 bvec2 bv = bvec2(b, b);
 ivec2 iv = ivec2(i, i);
 ```
+
+#### cg is more picky than glsl about vector initialization
+Avoid using initializers that mix argument types, use e.g.
+```glsl
+float s = 1.0;
+vec2 v2 = vec2(s, s);
+vec3 v3 = vec3(v2, s);
+vec4 v4 = vec4(s);
+```
